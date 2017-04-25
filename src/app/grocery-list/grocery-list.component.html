@@ -1,0 +1,6 @@
+<ul class="list-group">
+  <li class="list-group-item" *ngFor="let item of _groceryListService.items | async">
+    <span class="badge">{{item.quantity}}</span>
+    {{item.name}}
+  </li>
+</ul>

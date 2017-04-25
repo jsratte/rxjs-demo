@@ -1,0 +1,12 @@
+<div>
+  <form class="form-inline" #itemForm="ngForm">
+
+    <div class="form-group">
+      <label for="name">Item : </label>
+      <input type="text" class="form-control" id="name" placeholder="Name" required #itemName />
+      <input type="number" class="form-control" id="quantity" placeholder="Qty" required #itemQuantity />
+      <button class="btn btn-success" (click)="handleForm()" id="add-button">Add</button>
+    </div>
+
+  </form>
+</div>
