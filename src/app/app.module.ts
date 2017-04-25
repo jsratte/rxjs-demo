@@ -5,7 +5,6 @@ import {HttpModule} from '@angular/http';
 
 import {AppComponent} from './app.component';
 import {GroceryListComponent} from './grocery-list/grocery-list.component';
-import {GroceryPrintComponent} from './grocery-print/grocery-print.component';
 import {GroceryAddComponent} from './grocery-add/grocery-add.component';
 import {GroceryListService} from "./grocery-list.service";
 
@@ -13,7 +12,6 @@ import {GroceryListService} from "./grocery-list.service";
   declarations: [
     AppComponent,
     GroceryListComponent,
-    GroceryPrintComponent,
     GroceryAddComponent
   ],
   imports: [
